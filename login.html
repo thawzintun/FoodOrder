@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <div class="" style="background-size: cover; background-repeat: no-repeat; background-position:center ; height: 100vh; background-image: url(/img3.jpg);">
+    
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+      <div class="container-fluid col-12">
+        <a class="navbar-brand order-2 me-0 col-6 col-lg text-center order-lg-1 fs-2" href="#">Navbar</a>
+
+        <button class="navbar-toggler order-1 col-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="fa-solid fa-bars text-danger py-1"></span>
+        </button>
+        <button class="navbar-toggler order-3 col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa-solid fa-cart-shopping py-1 text-danger"></span>
+        </button>
+          <form class="d-flex order-4 col-12 mt-2 col-lg order-lg-2" role="search">
+            <input class="form-control border-danger" type="search" placeholder="Search..." aria-label="Search">
+          </form>
+          <div class="offcanvas col-lg col-12 order-lg-3 offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title fs-4" id="offcanvasNavbarLabel">MENU</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Support</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Account
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Change Password</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <hr>
+            </div>
+          </div>
+      </div>
+    </nav>
+
+<section class="">
+  <div class="row m-auto d-flex justify-content-center flex-column align-items-center" style="height: 94vh;">
+    <div class="col-12 col-sm-7 col-md-5 col-lg-4 col-xl-3 rounded-4 bg-light bg-opacity-50">
+      <h1 class="text-center my-5">Login</h1>
+      <form class="row gy-4 gx-0 px-4">
+        <div class="input-group shadow rounded">
+          <div class="form-floating w-100">
+            <input id="username" type="text" placeholder="Username" class="border-danger bg-transparent form-control">
+            <label class="text-dark text-opacity-50" for="username">Username</label>
+          </div>
+        </div>
+
+        <div class="input-group shadow rounded">
+          <div class="form-floating ">
+            <input id="password" type="password" placeholder="Password" class="bg-transparent border-danger form-control">
+            <label class="text-dark text-opacity-50" for="password">Password</label>
+          </div>
+        </div>
+
+        <div class=" d-flex justify-content-center shadow rounded">
+          <input type="button" value="Sign in" class="btn w-100 btn-danger px-5 py-3">
+        </div>
+
+        <hr class="">
+      </form>
+        <div class="pb-3 d-flex justify-content-center">
+        <h6>Not Registered? <a href="/register.html" class="text-danger text-decoration-none"> Create account</a></h6>
+        </div>
+    </div>
+    </div>
+</section>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
