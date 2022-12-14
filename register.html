@@ -14,10 +14,57 @@
 
     <div class="" style="background-size: cover; background-repeat: no-repeat; background-position:center ; height:100vh; background-image: url(img3.jpg);">
 
-
+        <nav class="navbar navbar-expand-lg bg-light sticky-top" style="height: 7vh;">
+            <div class="container-fluid col-12">
+              <a class="navbar-brand order-2 me-0 col-6 col-lg text-center order-lg-1 fs-2" href="#">Navbar</a>
+      
+              <button class="navbar-toggler order-1 col-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="fa-solid fa-bars text-danger py-1"></span>
+              </button>
+              <button class="navbar-toggler order-3 col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa-solid fa-cart-shopping py-1 text-danger"></span>
+              </button>
+                <form class="d-flex order-4 col-12 mt-2 col-lg order-lg-2" role="search">
+                  <input class="form-control border-danger" type="search" placeholder="Search..." aria-label="Search">
+                </form>
+                <div class="offcanvas col-lg col-12 order-lg-3 offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title fs-4" id="offcanvasNavbarLabel">MENU</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Account
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Profile</a></li>
+                          <li><a class="dropdown-item" href="#">Change Password</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <hr>
+                  </div>
+                </div>
+            </div>
+          </nav>
         
 <section>
-    <div class="row m-auto d-flex justify-content-center flex-column align-items-center" style="height: 100vh;">
+    <div class="row m-auto d-flex justify-content-center flex-column align-items-center" style="height: 93vh;">
         <div class="col-12 col-sm-7 col-md-6 col-lg-5 col-xl-4 rounded-4 bg-light bg-opacity-50">
             <h1 class="my-5 text-center">Create Account</h1>
         <form class="row gy-4 gx-0 px-4">
